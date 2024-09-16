@@ -40,7 +40,8 @@
 // }
 // export default userregister;
 
-import bcrypt from 'bcrypt'; // Ensure bcrypt is imported
+import bcrypt from 'bcryptjs';
+
 import User from '../models/usersmodel.js';
 
 const findUser = async (email) => {

@@ -1,6 +1,7 @@
 
 
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
+
 import User from "../models/usersmodel.js";
 import { Createtoken } from "../services/jwt/token.js";
 
